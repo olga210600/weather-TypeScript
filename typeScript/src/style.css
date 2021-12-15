@@ -1,0 +1,87 @@
+body{
+    font-family: sans-serif;
+    position: relative;
+    background-image: url(https://wallpaperscave.ru/images/thumbs/wp-preview/800x500/18/04-13/earth-lake-40512.jpg);
+    --moz-background-size:100%;
+    -webkit-background-size:100%;
+    -o-background-size:100%;
+    background-size:100%;
+    /*opacity: 0.7*/
+}
+
+.container-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 114%);
+}
+.pricing-table{
+    padding: 0 10px;
+    width: 300px;
+    height: 200px;
+    background: white;
+    border: solid 3px limegreen ;
+    border-radius: 5px;
+    margin: auto;
+    position: relative;
+}
+
+#top-wrapper{
+    display: flex;
+    width: 209px;
+    margin: auto;
+}
+
+.name-wrapper{
+    color: red;
+}
+
+.degrees-wrapper{
+    height: 20px;
+    width: 40px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    background: gray;
+    border: solid 1px gray;
+}
+
+.add-wrapper{
+    display: flex;
+    margin: auto;
+    width: 267px;
+}
+
+p{
+    padding: 0 10px;
+}
+
+.features{
+    margin: 0;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+#select{
+    margin-top: 10px;
+}
+
+.selectWeather{
+    position: absolute;
+    top: 161px;
+    left: 130px;
+    height: 31px;
+    width: 85px;
+    color: white;
+    background: mediumseagreen;
+    border: none;
+    border-radius: 13px;
+}
+
+/*#background{*/
+/*    width: 100vh;*/
+/*    height: 100vh ;*/
+/*}*/
